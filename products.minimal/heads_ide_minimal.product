@@ -37,6 +37,7 @@
 <feature id="org.nodeclipse.enide.nodejs.feature" />
 <feature id="org.eclipse.xtend.sdk" />
 <feature id="net.mihai-nita.ansicon" />-->
+<feature id="com.apama.studio"/>
 
 
 

@@ -142,6 +142,7 @@
 <feature id="org.eclipse.wb.css.feature" />
 <feature id="org.eclipse.wb.core.xml.feature" />
 <feature id="net.mihai-nita.ansicon" />
+<feature id="com.apama.studio"/>
 
 
 

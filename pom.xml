@@ -8,7 +8,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        	<tycho-version>0.19.0</tycho-version>
+		<tycho-version>0.21.0</tycho-version>
 		<project.build.sourceEncoding>UTF8</project.build.sourceEncoding>
 	    </properties>
 
@@ -26,7 +26,7 @@
 		
 	<repositories>
         	<repository>
-			<id>Kepler</id>
+			<id>Luna</id>
 			<url>http://download.eclipse.org/releases/luna/</url>
 			<layout>p2</layout>
 			<releases>
@@ -37,7 +37,7 @@
 			</snapshots>
 		</repository>
 		<repository>
-			<id>kepler-updates</id>
+			<id>Luna-updates</id>
 			<url>http://download.eclipse.org/eclipse/updates/4.4</url>
 			<layout>p2</layout>
 			<releases>
@@ -118,6 +118,17 @@
 	<repository>
 			<id>ansiconsole</id>
 			<url>http://www.mihai-nita.net/eclipse</url>
+			<layout>p2</layout>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>SAG Apama</id>
+			<url>jar:file:///D:/Users/mask/git/skorsky/heads_ide/ApamaStudio_repo.zip!/</url>
 			<layout>p2</layout>
 			<releases>
 				<enabled>true</enabled>
